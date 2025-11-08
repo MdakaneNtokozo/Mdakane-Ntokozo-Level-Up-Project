@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Graduate_API.Controllers.GraduatesController",
+    "Method": "CreateGrad",
+    "RelativePath": "createGrad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grad",
+        "Type": "Graduate_API.Models.Graduate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduate_API.Controllers.GraduatesController",
+    "Method": "Delete",
+    "RelativePath": "deleteGrad/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduate_API.Controllers.GraduatesController",
+    "Method": "GetGradById",
+    "RelativePath": "getGrad/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduate_API.Controllers.GraduatesController",
+    "Method": "GetGrads",
+    "RelativePath": "getGrads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduate_API.Controllers.GraduatesController",
+    "Method": "UpdateGraduate",
+    "RelativePath": "updateGrad",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grad",
+        "Type": "Graduate_API.Models.Graduate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

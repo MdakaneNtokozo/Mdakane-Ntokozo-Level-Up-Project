@@ -1,0 +1,444 @@
+:root {
+  --black: #080808;
+  --white: #E3F0D3;
+  --red: #ED2224;
+  --blue: #31ADE3;
+  --green: #71C389;
+  --orange: #F1A51F;
+}
+
+.orbitron-regular {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron-bold {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.micro-5 {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.starry-background {
+  background-image: url("C:\Users\Ntokozo\Downloads\Level Up Day Project\Frontend\_LevelUpAssessment-main\public\assets\backgrounds\space-background.webp");
+  width: 100%;
+  height: 100%;
+}
+
+.logo-div {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo-div img {
+  width: 12%;
+  height: 75%;
+}
+
+.welcome-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-left-container {
+  width: 50%;
+  padding: 5%;
+  color: white;
+}
+
+.welcome-left-p1 {
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome-left-p2 {
+  font-size: 1.8rem;
+  margin-bottom: 5%;
+}
+
+.red-button {
+  background-color: #ED2224;
+  width: fit-content;
+  border-radius: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 45px;
+}
+
+.red-button div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red-button p {
+  font-family: "Micro 5";
+  font-size: 2rem;
+}
+
+.red-button img {
+  width: 50px;
+  height: 100%;
+}
+
+.stripes-div {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+}
+
+.stripes-div #span1 {
+  width: 100%;
+  height: 10px;
+  background-color: #31ADE3;
+}
+
+.stripes-div #span2 {
+  width: 100%;
+  height: 10px;
+  background-color: #71C389;
+}
+
+.stripes-div #span3 {
+  width: 100%;
+  height: 10px;
+  background-color: #F1A51F;
+}
+
+.stripes-div #span4 {
+  width: 100%;
+  height: 10px;
+  background-color: #ED2224;
+}
+
+.welcome-right-container {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.view-all-header {
+  color: white;
+  padding-left: 50px;
+}
+
+.text-and-stripes {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+
+.text-and-stripes p {
+  font-size: 2.5rem;
+  width: fit-content;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.text-and-stripes .stripes-div {
+  position: relative;
+  height: 60px;
+  flex: 1;
+}
+
+.text-and-stripes .stripes-div #span1 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span2 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span3 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span4 {
+  height: 10px
+}
+
+.create-grad-form {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  color: #F1A51F
+}
+
+.create-grad-form input {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #080808;
+  border-bottom: 1px solid #E3F0D3;
+  color: #E3F0D3
+}
+
+.create-grad-form-left {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.create-grad-form-right {
+  width: 50%;
+}
+
+.create-grad-form-right button {
+  float: right;
+}
+
+.action-div {
+  width: 40%
+}
+
+tr{
+  border-width: 1px var(--white);
+}
+
+.viewButton {
+  font-family: "Micro 5";
+  font-size: 25px;
+  color: #F1A51F;
+  border-color: #F1A51F;
+  border-width: 2px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 120px; 
+  margin-right: 5px;
+}
+
+.updateButton {
+  font-family: "Micro 5";
+  font-size: 25px;
+  color: #71C389;
+  border-color: #71C389;
+  border-width: 2px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 120px;
+  margin-right: 5px;
+}
+
+.deleteButton {
+  font-family: "Micro 5";
+  font-size: 25px;
+  color: #ED2224;
+  border-color: #ED2224;
+  border-width: 2px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 120px;
+}
+
+.view-grad-content {
+  width: 100%;
+  padding: 50px
+}
+
+.view-grad-content #div1 {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.view-grad-content #div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.view-grad-content #div2 #p1 {
+  color: #F1A51F;
+}
+
+hr {
+  color: white;
+}
+
+.dim-background {
+  background: #00000093;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.delete-grad-container {
+  background-color: #E3F0D3;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+}
+
+.delete-grad-container #div1 {
+  height: 50%;
+  text-align: center;
+}
+
+.delete-grad-container #div1 #p1 {
+  font-family: "Micro 5";
+  font-size: 23px;
+  padding: 0;
+}
+
+.delete-grad-container #div1 #p2 {
+  font-size: 40px;
+  padding: 0;
+}
+
+.delete-grad-container #div2 {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.delete-grad-container #div2 button {
+  width: 70%;
+}
+
+@media(max-width: 400px) {
+  .welcome-left-p1 {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .welcome-left-p2 {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .red-button {
+    width: 270px;
+    margin-bottom: 190px;
+  }
+
+  .welcome-right-container {
+    height: 320px;
+    width: 300px;
+  }
+
+  .welcome-right-container img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .text-and-stripes {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+
+.view-all-header{
+  padding-left: 15px;
+}
+
+.view-all-header p{
+  font-size: 10px;
+}
+
+.text-and-stripes p {
+  font-size: 1rem;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.text-and-stripes .stripes-div {
+  position: relative;
+  height: 60px;
+  flex: 1;
+}
+
+.text-and-stripes .stripes-div #span1 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span2 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span3 {
+  height: 10px
+}
+
+.text-and-stripes .stripes-div #span4 {
+  height: 10px
+}
+
+.create-grad-form {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.create-grad-form-left{
+  width: 100%;
+  padding: 0;
+}
+
+.create-grad-form-right{
+  width: 100%;
+}
+
+.create-grad-form-right button{
+  float: left;
+  margin: 0;
+}
+
+.view-grad-content{
+  padding: 20px;
+}
+
+.view-grad-content #div2 {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: left;
+ margin-bottom: 0;
+}
+
+.view-grad-content #div2 div {
+  border-bottom: 1px solid #E3F0D3;
+  width: 100%;
+}
+
+hr{
+  display: none;
+}
+
+}
