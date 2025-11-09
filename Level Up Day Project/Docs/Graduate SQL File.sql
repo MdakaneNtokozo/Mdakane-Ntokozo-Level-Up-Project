@@ -1,4 +1,4 @@
--- Made us of MySQL for the database
+-- Made use of MySQL for the database
 
 CREATE TABLE Graduate(
 	Guid INT PRIMARY KEY,

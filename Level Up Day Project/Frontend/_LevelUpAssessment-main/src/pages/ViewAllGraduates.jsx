@@ -101,7 +101,9 @@ const ViewAllGraduates = () => {
                                         {/* full name */}
                                         <td className="md:py-4 py-2 md:px-8 px-4">{grad.firstName} {grad.lastName}</td>
                                         {/* contact details */}
-                                        <td className="md:py-4 py-2 md:px-8 px-4 md:block hidden">{grad.emailAddress != null ? grad.emailAddress : grad.phoneNumber}</td>
+                                        <td className="md:py-4 py-2 md:px-8 px-4 md:block hidden" style={grad.emailAddress == null && grad.phoneNumber == null? {color:"red" : color:"white"}}>
+											{grad.emailAddress != null ? grad.emailAddress : (grad.phoneNumber != null ? grad.phoneNumber : "Field empty")}
+										</td>
                                         {/* actions */}
                                         <td className="md:py-4 py-2 md:px-8 px-4 action-div">
                                             <button className="viewButton" onClick={() => viewMode(grad.guid)}>View mode</button>

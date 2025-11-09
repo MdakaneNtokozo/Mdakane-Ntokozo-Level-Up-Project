@@ -4,10 +4,65 @@
     "firstName": "Ntokozo",
     "lastName": "Mdakane",
     "emailAddress": "mdakanentokozo53@gmail.com",
-    "phoneNumber": "0817130130",
+    "phoneNumber": "081 713 0130",
     "dateOfBirth": "2003-03-11T00:00:00",
     "dateCreated": "2025-11-08T15:23:05",
     "dateEdited": "2025-11-08T15:26:09",
+    "isDeleted": false
+  },
+  {
+    "guid": 1,
+    "firstName": "Vusimuzi",
+    "lastName": "Ndaba",
+    "emailAddress": "ndabavusimuzi@gmail.com",
+    "phoneNumber": "+27 74 657 8909",
+    "dateOfBirth": "2002-05-23T00:00:00",
+    "dateCreated": "2025-11-07T15:23:05",
+    "dateEdited": null,
+    "isDeleted": false
+  },
+  {
+    "guid": 3,
+    "firstName": "Gabriella",
+    "lastName": "Janssen",
+    "emailAddress": "gabriellajgmail.com",
+    "phoneNumber": "081 111 9843",
+    "dateOfBirth": "2001-08-01T00:00:00",
+    "dateCreated": "2025-11-04T15:23:05",
+    "dateEdited": "2025-11-05T15:23:05",
+    "isDeleted": false
+  },
+  {
+    "guid": 4,
+    "firstName": "Mohamed Aashiq",
+    "lastName": "Hartley",
+    "emailAddress": null,
+    "phoneNumber": null,
+    "dateOfBirth": "2000-07-14T00:00:00",
+    "dateCreated": "2025-11-05T15:23:05",
+    "dateEdited": null,
+    "isDeleted": false
+  },
+  {
+    "guid": 5,
+    "firstName": "Albert",
+    "lastName": "Jare",
+    "emailAddress": null,
+    "phoneNumber": "+27 72 567 8752",
+    "dateOfBirth": "2001-09-14T00:00:00",
+    "dateCreated": "2025-11-05T15:23:05",
+    "dateEdited": null,
+    "isDeleted": false
+  },
+  {
+    "guid": 6,
+    "firstName": "Chikani",
+    "lastName": "Mashaba",
+    "emailAddress": "mashabac@gmail.com",
+    "phoneNumber": "+27 78 224 7800",
+    "dateOfBirth": "2001-02-14T00:00:00",
+    "dateCreated": "2025-11-03T15:23:05",
+    "dateEdited": "2025-11-06T15:23:05",
     "isDeleted": false
   }
 ]
